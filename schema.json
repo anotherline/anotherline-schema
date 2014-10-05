@@ -1,0 +1,248 @@
+{
+  "general": {
+    "name": "",
+    "title": "",
+    "university": "",
+    "picture": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    },
+    "profiles": [{
+      "network": "",
+      "username": "",
+      "url": ""
+    }]
+  },
+  "appointments": [{
+    "university": "",
+    "position": "",
+    "website": "",
+    "startDate": "",
+    "endDate": "",
+    "summary": "",
+    "highlights": [
+    ""
+    ]
+  }],
+  "publications": [{
+    "chapter": [{
+      "title": "",
+      "authors": [
+      ""
+      ],
+      "press": "",
+      "date": "",
+      "abstract": "",
+      "assets":
+      {
+        "pgLink": "",
+        "linkTxt": "",
+        "img": "",
+        "altAttr": ""
+      },
+      "field": [
+      ""
+      ],
+      "tags": [
+      ""
+      ]
+    }],
+    "journal": [{
+      "title": "",
+      "authors": [
+      ""
+      ],
+      "journal": "",
+      "date": "",
+      "abstract": "",
+      "assets":
+      {
+        "pgLink": "",
+        "linkTxt": "",
+        "img": "",
+        "altAttr": ""
+      },
+      "field": [
+      ""
+      ],
+      "tags": [
+      ""
+      ]
+    }],
+    "web": [{
+      "title": "",
+      "authors": [
+      ""
+      ],
+      "journal": "",
+      "date": "",
+      "abstract": "",
+      "assets":
+      {
+        "pgLink": "",
+        "linkTxt": "",
+        "img": "",
+        "altAttr": ""
+      },
+      "field": [
+      ""
+      ],
+      "tags": [
+      ""
+      ]
+    }],
+    "coursework": [{
+      "title": "",
+      "authors": [
+        ""
+      ],
+      "journal": "",
+      "date": "",
+      "abstract": "",
+      "assets":
+      {
+        "pgLink": "",
+        "linkTxt": "",
+        "img": "",
+        "altAttr": ""
+      },
+      "field": [
+        ""
+      ],
+      "tags": [
+        ""
+      ]
+    }]
+  }],
+  "presentations": [{
+    "date":"",
+    "authors": [
+      ""
+    ],
+    "title":"",
+    "conference":"",
+    "location":
+    {
+      "city":"",
+      "state":""
+    },
+    "assets":
+    {
+      "presLink":"",
+      "linkTxt":""
+    },
+    "invited": { "type": "boolean" }
+  }],
+  "education": [{
+    "phd": [{
+      "institution": "",
+      "startDate": "",
+      "endDate": "",
+      "thesisTitle": "",
+      "committee":
+      {
+        "advisor":"",
+        "member1":"",
+        "member2":"",
+        "outside":""
+      }
+    }],
+    "masters": [{
+      "institution": "",
+      "startDate": "",
+      "endDate": "",
+      "thesisTitle": "",
+      "committee":
+      {
+        "advisor":"",
+        "member1":"",
+        "member2":"",
+        "outside":""
+      }
+    }],
+    "undergrad": [{
+      "institution": "",
+      "startDate": "",
+      "endDate": "",
+      "thesisTitle": ""
+    }]
+  }],
+  "service": [{
+    "editorial": [{
+      "role": "",
+      "journal":""
+    }],
+    "groups": [{
+      "date":"",
+      "title":"",
+      "organization":""
+    }],
+    "committees": [{
+      "date":"",
+      "title":"",
+      "role":"",
+      "organization":""
+    }]
+  }],
+  "grants": [{
+    "name":"",
+    "sponsor":"",
+    "startDate":"",
+    "endDate":"",
+    "amount":""
+  }],
+  "awards": [{
+    "fellowship": [{
+      "name": "",
+      "sponsor":[
+        ""
+      ]
+    }],
+    "award": [{
+      "name":"",
+      "sponsor":[
+        ""
+      ]
+    }]
+  }],
+  "affiliations":[{
+    "name":"",
+    "startDate":"",
+    "endDate":""
+  }],
+  "skills": [{
+    "audio":[
+      ""
+    ],
+    "video": [
+      ""
+    ],
+    "graphics": [
+      ""
+    ],
+    "office": [
+      ""
+    ],
+    "courseManagement": [
+      ""
+    ],
+    "other": [{
+      "name":"",
+      "platforms": [
+        ""
+      ]
+    }]
+  }],
+  "languages": [{
+    "language": "",
+    "fluency": ""
+  }]
+}
