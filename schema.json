@@ -29,14 +29,17 @@
     "endDate": "",
     "summary": "",
     "highlights": [
-    ""
+      ""
     ]
   }],
   "publications": [{
-    "chapter": [{
+    "book": [{
       "title": "",
       "authors": [
-      ""
+        ""
+      ],
+      "editors": [
+        ""
       ],
       "press": "",
       "date": "",
@@ -49,10 +52,35 @@
         "altAttr": ""
       },
       "field": [
-      ""
+        ""
       ],
       "tags": [
+        ""
+      ]
+    }],
+    "chapter": [{
+      "title": "",
+      "authors": [
       ""
+      ],
+      "editors": [
+        ""
+      ],
+      "press": "",
+      "date": "",
+      "abstract": "",
+      "assets":
+      {
+        "pgLink": "",
+        "linkTxt": "",
+        "img": "",
+        "altAttr": ""
+      },
+      "field": [
+        ""
+      ],
+      "tags": [
+        ""
       ]
     }],
     "journal": [{
@@ -123,23 +151,63 @@
     }]
   }],
   "presentations": [{
-    "date":"",
-    "authors": [
-      ""
-    ],
-    "title":"",
-    "conference":"",
-    "location":
-    {
-      "city":"",
-      "state":""
-    },
-    "assets":
-    {
-      "presLink":"",
-      "linkTxt":""
-    },
-    "invited": { "type": "boolean" }
+    "conference": [{
+      "date":"",
+      "authors": [
+        ""
+      ],
+      "title":"",
+      "conference":"",
+      "location":
+      {
+        "city":"",
+        "state":""
+      },
+      "assets":
+      {
+        "presLink":"",
+        "linkTxt":""
+      },
+      "invited": { "type": "boolean" }
+    }],
+    "workshop": [{
+      "date":"",
+      "authors": [
+        ""
+      ],
+      "title":"",
+      "workshop":"",
+      "location":
+      {
+        "city":"",
+        "state":""
+      },
+      "assets":
+      {
+        "presLink":"",
+        "linkTxt":""
+      },
+      "invited": { "type": "boolean" }
+    }],
+    "department": [{
+      "date":"",
+      "authors": [
+        ""
+      ],
+      "title":"",
+      "event":"",
+      "location":
+      {
+        "city":"",
+        "state":""
+      },
+      "assets":
+      {
+        "presLink":"",
+        "linkTxt":""
+      },
+      "invited": { "type": "boolean" }
+    }]
   }],
   "education": [{
     "phd": [{
