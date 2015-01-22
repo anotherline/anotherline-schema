@@ -1,6 +1,9 @@
 {
+  "cv-title": "",
   "general": {
-    "name": "",
+    "given":"",
+    "family": "",
+    "mi": "",
     "title": "",
     "university": "",
     "picture": "",
@@ -9,11 +12,12 @@
     "website": "",
     "summary": "",
     "location": {
-      "address": "",
-      "postalCode": "",
+      "address1": "",
+      "address2": "",
       "city": "",
-      "countryCode": "",
-      "region": ""
+      "state": "",
+      "postalCode": "",
+      "countryCode": ""
     },
     "profiles": [{
       "network": "",
@@ -21,32 +25,70 @@
       "url": ""
     }]
   },
-  "appointments": [{
-    "university": "",
-    "position": "",
-    "website": "",
-    "startDate": "",
-    "endDate": "",
-    "summary": "",
-    "highlights": [
-      ""
-    ]
-  }],
-  "publications": [{
-    "book": [{
+  "appointments": {
+    "university": 
+    [{
+      "name": "",
+      "current": boolean,
+      "courses":
+      [{
+        "position": "",
+        "deptShort": "",
+        "courseNum": "",
+        "course": "",
+        "website": "",
+        "semesters": [""],
+        "summary": "",
+        "highlights": [
+          ""
+        ]
+      }]
+    }]
+  },
+  "publications": {
+    "books": [{
+      "forthcoming": boolean,
       "title": "",
-      "authors": [
-        ""
-      ],
-      "editors": [
-        ""
-      ],
+      "authors": [{
+        "number": 1,
+        "given": "",
+        "family": ""
+      }],
       "press": "",
+      "pressLoc": {
+        "city":"",
+        "state":""
+      },
+      "date": ""
+    }],
+    "chapters": [
+    {
+      "forthcoming": boolean,
+      "title": "",
+      "collection": "",
+      "authors": [{
+        "number": int,
+        "given": "",
+        "family": ""
+      }],
+      "editors": [
+      {
+        "number": int,
+        "given": "",
+        "family": ""
+      }],
+      "press": "",
+      "pressLoc": {
+        "city": "",
+        "state": ""
+      },
       "date": "",
+      "pgNums": "",
       "abstract": "",
       "assets":
       {
-        "pgLink": "",
+        "permaLink": "",
+        "isbn": "",
         "linkTxt": "",
         "img": "",
         "altAttr": ""
@@ -58,86 +100,79 @@
         ""
       ]
     }],
-    "chapter": [{
+    "journals": [
+    {
+      "forthcoming": boolean,
       "title": "",
       "authors": [
-      ""
-      ],
-      "editors": [
-        ""
-      ],
-      "press": "",
-      "date": "",
-      "abstract": "",
-      "assets":
       {
-        "pgLink": "",
-        "linkTxt": "",
-        "img": "",
-        "altAttr": ""
-      },
-      "field": [
-        ""
-      ],
-      "tags": [
-        ""
-      ]
-    }],
-    "journal": [{
-      "title": "",
-      "authors": [
-      ""
-      ],
+        "number": int,
+        "given": "",
+        "family": ""
+      }],
       "journal": "",
+      "volume": "",
       "date": "",
+      "pgNums": "",
       "abstract": "",
       "assets":
       {
-        "pgLink": "",
+        "permaLink": "",
+        "doi": "",
         "linkTxt": "",
         "img": "",
         "altAttr": ""
       },
       "field": [
-      ""
+        ""
       ],
       "tags": [
-      ""
+        ""
       ]
     }],
     "web": [{
+      "forthcoming": boolean,
       "title": "",
       "authors": [
-      ""
-      ],
+      {
+        "number": boolean,
+        "given": "",
+        "family": ""
+      }],
       "journal": "",
+      "volume": "",
+      "issue": "",
       "date": "",
       "abstract": "",
       "assets":
       {
-        "pgLink": "",
+        "permaLink": "",
         "linkTxt": "",
         "img": "",
         "altAttr": ""
       },
       "field": [
-      ""
+        ""
       ],
       "tags": [
-      ""
+        ""
       ]
     }],
     "coursework": [{
+      "forthcoming": boolean,
       "title": "",
       "authors": [
-        ""
-      ],
-      "journal": "",
+      {
+        "number": boolean,
+        "given": "",
+        "family": ""
+      }],
+      "course": "",
       "date": "",
       "abstract": "",
       "assets":
       {
-        "pgLink": "",
+        "permaLink": "",
         "linkTxt": "",
         "img": "",
         "altAttr": ""
@@ -148,8 +183,7 @@
       "tags": [
         ""
       ]
-    }]
-  }],
+    }],
   "presentations": [{
     "conference": [{
       "date":"",
@@ -209,40 +243,53 @@
       "invited": { "type": "boolean" }
     }]
   }],
-  "education": [{
-    "phd": [{
+  "education": {
+    "doctorate": {
+      "degCheck": boolean,
+      "degree":"",
+      "title": "",
       "institution": "",
+      "program": "",
+      "programURL": "",
       "startDate": "",
       "endDate": "",
+      "expectedDate": "",
       "thesisTitle": "",
       "committee":
       {
-        "advisor":"",
-        "member1":"",
-        "member2":"",
-        "outside":""
+        "hasCommittee": boolean,
+        "advisor": ""
       }
-    }],
-    "masters": [{
+    },
+    "masters": {
+      "degCheck": boolean,
+      "degree": "",
+      "title": "",
       "institution": "",
+      "program": "",
       "startDate": "",
       "endDate": "",
+      "expectedDate": "",
       "thesisTitle": "",
       "committee":
       {
-        "advisor":"",
-        "member1":"",
-        "member2":"",
-        "outside":""
+        "hasCommittee": boolean,
+        "advisor": "",
+        "member1": "",
+        "member2": "",
+        "outside": ""
       }
-    }],
-    "undergrad": [{
+    },
+    "undergrad": {
+      "degCheck": boolean,
+      "degree": "",
       "institution": "",
+      "program": "",
       "startDate": "",
       "endDate": "",
-      "thesisTitle": ""
-    }]
-  }],
+      "advisor": ""
+    }
+  },
   "service": [{
     "editorial": [{
       "role": "",
