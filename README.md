@@ -1,9 +1,9 @@
 
-# JSON CVLine Schema
+# JSON AnotherLine Schema
 
 ## Standard, Specification, Schema
 
-This JSON schema is for the [MEAN (MongoDB, Express, Angular, and Node) stack application](http://mean.io) that is currently being developed as a resource for scholars to create their own, open and online portfolio &ndash one line at a time. The application, CVLine, will offer scholars a way to easily add and update their CV/portfolio information, which will then be served as API endpoints for scholars to use in conjunction with HTML/CSS/JS templates.
+This JSON schema is for the [MEAN (MongoDB, Express, Angular, and Node) stack application](http://mean.io) that is currently being developed as a resource for scholars to create their own, open and online portfolio &ndash one line at a time. The application, AnotherLine, will offer scholars a way to easily add and update their CV/portfolio information, which will then be served as API endpoints for scholars to use in conjunction with HTML/CSS/JS templates.
 
 This repo serves as a means to obtain feedback on the structure of the JSON. Here are some possible areas to comment on/review:
 
@@ -15,7 +15,7 @@ This schema is building off from work that I had done to create my own online po
 
 ## Contribute
 
-I (Chris) want to encourage you to participate in the formation of this schema, as a way to better structure the data model for the CVLine. Feel free to join the discussions [here on GitHub](https://github.com/cvline/cvline-schema/issues). Also feel free to fork it and add new suggestions that way, too.
+I (Chris) want to encourage you to participate in the formation of this schema, as a way to better structure the data model for the AnotherLine. Feel free to join the discussions [here on GitHub](https://github.com/cvline/cvline-schema/issues). Also feel free to fork it and add new suggestions that way, too.
 
 ## Contributors
 

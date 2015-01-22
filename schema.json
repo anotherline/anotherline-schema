@@ -29,7 +29,7 @@
     "university": 
     [{
       "name": "",
-      "current": boolean,
+      "current": { "type": "boolean" },
       "courses":
       [{
         "position": "",
@@ -47,10 +47,10 @@
   },
   "publications": {
     "books": [{
-      "forthcoming": boolean,
+      "forthcoming": { "type": "boolean" },
       "title": "",
       "authors": [{
-        "number": 1,
+        "number": { "type": "int" },
         "given": "",
         "family": ""
       }],
@@ -63,17 +63,17 @@
     }],
     "chapters": [
     {
-      "forthcoming": boolean,
+      "forthcoming": { "type": "boolean" },
       "title": "",
       "collection": "",
       "authors": [{
-        "number": int,
+        "number": { "type": "int" },
         "given": "",
         "family": ""
       }],
       "editors": [
       {
-        "number": int,
+        "number": { "type": "int" },
         "given": "",
         "family": ""
       }],
@@ -102,11 +102,11 @@
     }],
     "journals": [
     {
-      "forthcoming": boolean,
+      "forthcoming": { "type": "boolean" },
       "title": "",
       "authors": [
       {
-        "number": int,
+        "number": { "type": "int" },
         "given": "",
         "family": ""
       }],
@@ -131,11 +131,11 @@
       ]
     }],
     "web": [{
-      "forthcoming": boolean,
+      "forthcoming": { "type": "boolean" },
       "title": "",
       "authors": [
       {
-        "number": boolean,
+        "number": { "type": "int" },
         "given": "",
         "family": ""
       }],
@@ -159,11 +159,11 @@
       ]
     }],
     "coursework": [{
-      "forthcoming": boolean,
+      "forthcoming": { "type": "boolean" },
       "title": "",
       "authors": [
       {
-        "number": boolean,
+        "number": { "type": "int" },
         "given": "",
         "family": ""
       }],
@@ -245,7 +245,7 @@
   }],
   "education": {
     "doctorate": {
-      "degCheck": boolean,
+      "degCheck": { "type": "boolean" },
       "degree":"",
       "title": "",
       "institution": "",
@@ -257,12 +257,12 @@
       "thesisTitle": "",
       "committee":
       {
-        "hasCommittee": boolean,
+        "hasCommittee": { "type": "boolean" },
         "advisor": ""
       }
     },
     "masters": {
-      "degCheck": boolean,
+      "degCheck": { "type": "boolean" },
       "degree": "",
       "title": "",
       "institution": "",
@@ -273,7 +273,7 @@
       "thesisTitle": "",
       "committee":
       {
-        "hasCommittee": boolean,
+        "hasCommittee": { "type": "boolean" },
         "advisor": "",
         "member1": "",
         "member2": "",
@@ -281,7 +281,7 @@
       }
     },
     "undergrad": {
-      "degCheck": boolean,
+      "degCheck": { "type": "boolean" },
       "degree": "",
       "institution": "",
       "program": "",
@@ -290,7 +290,7 @@
       "advisor": ""
     }
   },
-  "service": [{
+  "service": {
     "editorial": [{
       "role": "",
       "journal":""
@@ -306,15 +306,15 @@
       "role":"",
       "organization":""
     }]
-  }],
-  "grants": [{
+  },
+  "grants": {
     "name":"",
     "sponsor":"",
     "startDate":"",
     "endDate":"",
     "amount":""
-  }],
-  "awards": [{
+  },
+  "awards": {
     "fellowship": [{
       "name": "",
       "sponsor":[
@@ -327,13 +327,13 @@
         ""
       ]
     }]
-  }],
-  "affiliations":[{
+  },
+  "affiliations":{
     "name":"",
     "startDate":"",
     "endDate":""
-  }],
-  "skills": [{
+  },
+  "skills": {
     "audio":[
       ""
     ],
@@ -355,9 +355,9 @@
         ""
       ]
     }]
-  }],
-  "languages": [{
+  },
+  "languages": {
     "language": "",
     "fluency": ""
-  }]
+  }
 }
