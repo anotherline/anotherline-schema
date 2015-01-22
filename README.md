@@ -15,7 +15,7 @@ This schema is building off from work that I had done to create my own online po
 
 ## Contribute
 
-I (Chris) want to encourage you to participate in the formation of this schema, as a way to better structure the data model for the AnotherLine. Feel free to join the discussions [here on GitHub](https://github.com/cvline/cvline-schema/issues). Also feel free to fork it and add new suggestions that way, too.
+I (Chris) want to encourage you to participate in the formation of this schema, as a way to better structure the data model for the AnotherLine. Feel free to join the discussions [here on GitHub](https://github.com/anotherline/anotherline-schema/issues). Also feel free to fork it and add new suggestions that way, too.
 
 ## Contributors
 
