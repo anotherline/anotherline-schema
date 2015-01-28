@@ -197,9 +197,12 @@
   "presentations": [{
     "conference": [{
       "date":"",
-      "authors": [
-        ""
-      ],
+      "authors": [{
+        "number": { "type": "int" },
+        "given": "",
+        "family": "",
+        "mi": ""
+      }],
       "title":"",
       "conference":"",
       "location":
@@ -221,7 +224,8 @@
       "leaders": [{
         "number": { "type": "int" },
         "given": "",
-        "family": ""
+        "family": "",
+        "mi": ""
       }],
       "role": "",
       "location":
@@ -241,7 +245,8 @@
       "authors": [{
         "number": { "type": "int" },
         "given": "",
-        "family": ""
+        "family": "",
+        "mi": ""
       }],
       "title":"",
       "event":"",
