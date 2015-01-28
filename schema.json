@@ -208,7 +208,8 @@
       "location":
       {
         "city":"",
-        "state":""
+        "state":"",
+        "country": ""
       },
       "assets":
       {
@@ -231,7 +232,8 @@
       "location":
       {
         "city":"",
-        "state":""
+        "state":"",
+        "country": ""
       },
       "assets":
       {
@@ -253,7 +255,8 @@
       "location":
       {
         "city":"",
-        "state":""
+        "state":"",
+        "country": ""
       },
       "assets":
       {
