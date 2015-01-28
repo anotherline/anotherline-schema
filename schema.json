@@ -97,6 +97,7 @@
       "abstract": "",
       "assets":
       {
+        "exists": { "type": "boolean" },
         "permaLink": "",
         "isbn": "",
         "linkTxt": "",
@@ -127,6 +128,7 @@
       "abstract": "",
       "assets":
       {
+        "exists": { "type": "boolean" },
         "permaLink": "",
         "doi": "",
         "linkTxt": "",
@@ -156,6 +158,7 @@
       "abstract": "",
       "assets":
       {
+        "exists": { "type": "boolean" },
         "permaLink": "",
         "linkTxt": "",
         "img": "",
@@ -182,6 +185,7 @@
       "abstract": "",
       "assets":
       {
+        "exists": { "type": "boolean" },
         "permaLink": "",
         "linkTxt": "",
         "img": "",
@@ -213,6 +217,7 @@
       },
       "assets":
       {
+        "exists": { "type": "boolean" },
         "presLink":"",
         "linkTxt":""
       },
@@ -237,6 +242,7 @@
       },
       "assets":
       {
+        "exists": { "type": "boolean" },
         "presLink":"",
         "linkTxt":""
       },
@@ -260,6 +266,7 @@
       },
       "assets":
       {
+        "exists": { "type": "boolean" },
         "presLink":"",
         "linkTxt":""
       },
