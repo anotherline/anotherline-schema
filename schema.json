@@ -216,11 +216,14 @@
     }],
     "workshop": [{
       "date":"",
-      "authors": [
-        ""
-      ],
       "title":"",
       "workshop":"",
+      "leaders": [{
+        "number": { "type": "int" },
+        "given": "",
+        "family": ""
+      }],
+      "role": "",
       "location":
       {
         "city":"",
