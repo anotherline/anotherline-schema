@@ -238,9 +238,11 @@
     }],
     "department": [{
       "date":"",
-      "authors": [
-        ""
-      ],
+      "authors": [{
+        "number": { "type": "int" },
+        "given": "",
+        "family": ""
+      }],
       "title":"",
       "event":"",
       "location":
