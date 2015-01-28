@@ -49,10 +49,18 @@
     "books": [{
       "forthcoming": { "type": "boolean" },
       "title": "",
+      "role": { "type": "boolean" }, // true = author; false = editor
       "authors": [{
         "number": { "type": "int" },
         "given": "",
-        "family": ""
+        "family": "",
+        "mi": ""
+      }],
+      "editors": [{
+        "number": { "type": "int" },
+        "given": "",
+        "family": "",
+        "mi": ""
       }],
       "press": "",
       "pressLoc": {
@@ -69,13 +77,15 @@
       "authors": [{
         "number": { "type": "int" },
         "given": "",
-        "family": ""
+        "family": "",
+        "mi": ""
       }],
       "editors": [
       {
         "number": { "type": "int" },
         "given": "",
-        "family": ""
+        "family": "",
+        "mi": ""
       }],
       "press": "",
       "pressLoc": {
