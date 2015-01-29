@@ -178,7 +178,8 @@
       {
         "number": { "type": "int" },
         "given": "",
-        "family": ""
+        "family": "",
+        "mi": ""
       }],
       "course": "",
       "date": "",
@@ -338,6 +339,13 @@
     }]
   },
   "grants": [{
+    "grantees": [
+    {
+      "number": { "type": "int" },
+      "given": "",
+      "family": "",
+      "mi": ""
+    }],
     "name":"",
     "sponsor":{
       "subExists": { "type": "boolean" },
@@ -355,6 +363,11 @@
         "subExists": { "type": "boolean" },
         "principal":"",
         "subordinate":""
+      },
+      "date":{
+        "semExists": { "type": "boolean" },
+        "year":"",
+        "semester":""
       }
     }],
     "award": [{
@@ -363,6 +376,11 @@
         "subExists": { "type": "boolean" },
         "principal":"",
         "subordinate":""
+      },
+      "date":{
+        "semExists": { "type": "boolean" },
+        "year":"",
+        "semester":""
       }
     }]
   },
