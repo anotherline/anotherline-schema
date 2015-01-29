@@ -351,15 +351,19 @@
   "awards": {
     "fellowship": [{
       "name": "",
-      "sponsor":[
-        ""
-      ]
+      "sponsor":{
+        "subExists": { "type": "boolean" },
+        "principal":"",
+        "subordinate":""
+      }
     }],
     "award": [{
       "name":"",
-      "sponsor":[
-        ""
-      ]
+      "sponsor":{
+        "subExists": { "type": "boolean" },
+        "principal":"",
+        "subordinate":""
+      }
     }]
   },
   "affiliations":{
