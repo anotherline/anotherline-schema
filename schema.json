@@ -337,13 +337,17 @@
       "organization":""
     }]
   },
-  "grants": {
+  "grants": [{
     "name":"",
-    "sponsor":"",
+    "sponsor":{
+      "subExists": { "type": "boolean" },
+      "principal":"",
+      "subordinate":""
+    },
     "startDate":"",
     "endDate":"",
     "amount":""
-  },
+  }],
   "awards": {
     "fellowship": [{
       "name": "",
