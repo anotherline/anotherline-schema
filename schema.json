@@ -33,9 +33,21 @@
       "courses":
       [{
         "position": "",
-        "deptShort": "",
+        "department": "",
         "courseNum": "",
         "course": "",
+        "website": "",
+        "semesters": [""],
+        "summary": "",
+        "highlights": [
+          ""
+        ]
+      }],
+      "research":
+      [{
+        "position": "",
+        "department": "",
+        "project": "",
         "website": "",
         "semesters": [""],
         "summary": "",
@@ -384,12 +396,12 @@
       }
     }]
   },
-  "affiliations":{
+  "affiliations":[{
     "name":"",
     "startDate":"",
     "endDate":""
-  },
-  "skills": {
+  }],
+  "proficiencies": [{
     "audio":[
       ""
     ],
@@ -411,9 +423,9 @@
         ""
       ]
     }]
-  },
-  "languages": {
+  }],
+  "languages": [{
     "language": "",
     "fluency": ""
-  }
+  }]
 }
