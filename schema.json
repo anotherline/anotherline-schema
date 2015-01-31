@@ -61,7 +61,7 @@
     "books": [{
       "forthcoming": { "type": "boolean" },
       "title": "",
-      "role": { "type": "boolean" }, // true = author; false = editor
+      "role": { "type": "boolean (true=author;false=editor)" },
       "authors": [{
         "number": { "type": "int" },
         "given": "",
